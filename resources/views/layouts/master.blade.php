@@ -31,7 +31,10 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('menureszter')}}">Eszter</a>
                             </li>
-                            </ul>
+                                <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('menu_dcsaba')}}">Csaba</a>
+                              </li>
+                          </ul>
                         </div>
                     </nav>
                 </div>
