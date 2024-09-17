@@ -34,6 +34,9 @@
                                 <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('menu_dcsaba')}}">Csaba</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('danika')}}">ötméter</a>
+                              </li>
                           </ul>
                         </div>
                     </nav>
