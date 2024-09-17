@@ -8,6 +8,7 @@ use App\Http\Controllers\dcsabaController;
 use App\Http\Controllers\szzeretunkDaniController;
 use App\Http\Controllers\njuditController;
 use App\Http\Controllers\sbenceController;
+use App\Http\Controllers\phunorController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -21,3 +22,4 @@ Route::get('/dcsaba',[dcsabaController::class,"index"])->name('menu_dcsaba');
 Route::get('/szeretunkDani',[szzeretunkDaniController::class,"index"])->name('danika');
 Route::get('/njudit',[njuditController::class,"index"])->name('menunjudit');
 Route::get('/sbence',[sbenceController::class,"index"])->name('sbence');
+Route::get('/Hunor',[phunorController::class,"index"])->name('phunor');

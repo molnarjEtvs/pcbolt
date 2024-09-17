@@ -45,6 +45,9 @@
                               <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('sbence')}}">Sbence</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('phunor')}}">Hunor</a>
+                              </li>
                           </ul>
                         </div>
                     </nav>
