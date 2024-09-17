@@ -24,6 +24,9 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('menu1')}}">József</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('menu_dani')}}">Dani</a>
+                              </li>
                           </ul>
                         </div>
                       </nav>
