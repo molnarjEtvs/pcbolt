@@ -19,8 +19,11 @@
                         <div class="container-fluid">
                           <ul class="navbar-nav">
                             <li class="nav-item">
-                              <a class="nav-link text-white" href="#">Főoldal</a>
+                              <a class="nav-link text-white" href="{{route('fooldal')}}">Főoldal</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('menu1')}}">József</a>
+                              </li>
                           </ul>
                         </div>
                       </nav>
