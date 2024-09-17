@@ -42,6 +42,9 @@
                                 <a class="nav-link text-white" href="{{route('menunjudit')}}">N. Judit</a>
                             </li>
 
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('sbence')}}">Sbence</a>
+                              </li>
                           </ul>
                         </div>
                     </nav>
