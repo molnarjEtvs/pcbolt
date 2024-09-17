@@ -8,3 +8,5 @@ Route::get('/', function () {
 })->name('fooldal');
 
 Route::get('/jozsef',[jozsefController::class,"index"])->name('menu1');
+
+Route::get('/gakos',[jozsefController::class,"index"])->name('menugakos');
