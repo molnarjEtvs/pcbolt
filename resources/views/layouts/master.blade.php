@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
 
     <header class="container-fluid bg-primary">
@@ -17,19 +18,42 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-sm bg-primary navbar-primary">
                         <div class="container-fluid">
-                          <ul class="navbar-nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="{{ route('fooldal') }}">Főoldal</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="{{ route('menu1') }}">József</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="{{ route('zspeti') }}">ZsPeti</a>
+                              </li>
                             <li class="nav-item">
-                              <a class="nav-link text-white" href="{{route('fooldal')}}">Főoldal</a>
+                                <a class="nav-link text-white" href="{{route('menureszter')}}">Eszter</a>
                             </li>
+                                <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('menu_dcsaba')}}">Csaba</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('danika')}}">ötméter</a>
+                            </li>
+
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="{{route('menu1')}}">József</a>
+                                <a class="nav-link text-white" href="{{route('menunjudit')}}">N. Judit</a>
+                            </li>
+
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('sbence')}}">Sbence</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('phunor')}}">Hunor</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('menu_dani')}}">Dani</a>
                               </li>
                           </ul>
                         </div>
-                      </nav>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -52,4 +76,5 @@
     </footer>
 
 </body>
+
 </html>

@@ -1,6 +1,5 @@
 @extends('layouts.master')
 @section('title','József')
-@section('title','phunor')
 @section('content')
-  <h1>HELLÓ JÓZSEF</h1>
+  <h1>HELLÓ Eszter</h1>
 @endsection
