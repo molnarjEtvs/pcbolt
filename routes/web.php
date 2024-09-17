@@ -6,6 +6,7 @@ use App\Http\Controllers\reszterController;
 use App\Http\Controllers\zspetiController;
 use App\Http\Controllers\dcsabaController;
 use App\Http\Controllers\szzeretunkDaniController;
+use App\Http\Controllers\njuditController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,3 +18,4 @@ Route::get('/reszter',[reszterController::class,"index"])->name('menureszter');
 Route::get('/zspeti',[zspetiController::class,"index"])->name('zspeti');
 Route::get('/dcsaba',[dcsabaController::class,"index"])->name('menu_dcsaba');
 Route::get('/szeretunkDani',[szzeretunkDaniController::class,"index"])->name('danika');
+Route::get('/njudit',[njuditController::class,"index"])->name('menunjudit');
