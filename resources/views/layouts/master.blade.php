@@ -23,7 +23,10 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="{{route('menu1')}}">József</a>
-                              </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="{{route('menureszter')}}">Eszter</a>
+                            </li>
                           </ul>
                         </div>
                       </nav>
